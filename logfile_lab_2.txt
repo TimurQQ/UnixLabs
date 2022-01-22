@@ -1,0 +1,58 @@
+    1  pwd
+    2  ls /
+    3  grep "b1950307" /etc/passwd
+    4  ls -la
+    5  find -type f -name "*[^i]"
+    6  find -type f -name "*[i]"
+    7  [ ! -d ./backup ] && mkdir ./backup
+    8  ls -l -d backup
+    9  echo "12345678"
+   10  history
+   11  echo "12345678"
+   12  echo a{d,c,b}e
+   13  echo "{These,words,are,quoted}"
+   14  echo \"{These,words,are,quoted}\"
+   15  echo "file_1" > file_1 && echo "file_2" > file_2 && echo "file_3" > file_3
+   16  ls
+   17  cat {file1,file2,file3} > files_123
+   18  cat {file_1,file_2,file_3} > files_123
+   19  echo "file_to_backup" > file_.txt
+   20  mv file_.{txt,backup}
+   21  ls
+   22  cp file_.{backup,txt}
+   23  ls
+   24  diff file_.backup file_.txt 
+   25  echo {a..z}
+   26  echo {0..9}
+   27  { myVar = 123; }
+   28  bash { myVar = 123; }
+   29  bash { myVar = 123;}
+   30  vim test1.sh
+   31  bash ./test1.sh
+   32  ls . | xargs -i -t echo arg_{}
+   33  echo "___________Task 2___________"
+   34  mkdir ~/html
+   35  mkdir ~/archive
+   36  ls /usr/share
+   37  ls /usr/share | head -5
+   38  ls /usr/share | head -5 > ~/html/index.html
+   39  cat ~/html/index.html
+   40  wc --lines ~/html/index.html
+   41  mv html html_public
+   42  cp ~/html_public/index.html ~/archive/index.html
+   43  ls | sort -r
+   44  ls | sort -r > ~/html_public/home.html
+   45  cp ~/html_public/home.html home.html
+   46  ln -s ~/html_public/index.html ~/html_public/link_s.html
+   47  ln ~/html_public/index.html ~/html_public/link_h.html
+   48  ln -s ~/html_public/index.html ~/html_public/link_s.html
+   49  ln ~/html_public/index.html ~/html_public/link_h.html
+   50  rm ~/html_public/index.html 
+   51  cat ~/html_public/link_s.html 
+   52  cat ~/html_public/link_h.html 
+   53  ls ~/html_public/
+   54  ls -la ~/html_public/
+   55  du -ah ~/html_public/
+   56  du -ah ~/archive
+   57  ls
+   58  history > logfile_lab_2.txt

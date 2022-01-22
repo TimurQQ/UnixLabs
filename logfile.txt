@@ -1,0 +1,86 @@
+    1  whoami
+    2  exit
+    3  ls
+    4  cd
+    5  dir
+    6  whoami
+    7  id
+    8  who
+    9  last
+   10  echo "Start Lab 1"
+   11  hostname
+   12  uname --name
+   13  echo "Task 1"
+   14  hostname
+   15  uname
+   16  uname -a
+   17  hostname --help
+   18  hostname -A
+   19  hostname -a
+   20  hostname -i
+   21  hostname
+   22  echo "Task 2"  // Incorrect statement :)
+   23  lscpu
+   24  ls
+   25  ls ..
+   26  cat ../../../proc/cpuinfo
+   27  arch
+   28  date +"%d/%m/%Y %H:%M"
+   29  alias
+   30  alias -p
+   31  alias newdate='date +"%d/%m/%Y %H:%M"'
+   32  newdate
+   33  newdate
+   34  newdate
+   35  env
+   36  PS1="timtim"
+   37  PS1="timtim$"
+   38  HOME=/home
+   39  env
+   40  ls
+   41  ls -r
+   42  dir
+   43  ls ..
+   44  bash
+   45  which bash
+   46  echo "Really Task 2"
+   47  whoami
+   48  echo %USER%
+   49  echo $USER
+   50  echo $USERNAME
+   51  USERNAME=TimTim
+   52  echo $USERNAME
+   53  who
+   54  last -3
+   55  groups
+   56  more /etc/passwd
+   57  man 5 passwd
+   58  qqqqqqqqq
+   59  fdfsd
+   60  man 5 passwdq
+   61  dir
+   62  history
+   63  dir
+   64  finger
+   65* 
+   66  chfn -f "Ilyasov T.K" b1950307
+   67  sudo chfn -f "Ilyasov T.K" b1950307
+   68  who
+   69  last 
+   70  finger
+   71  chfn -f "Ilyasov T.K" b1950307
+   72  chfn -f IlyasovTK b1950307
+   73  history
+   74  whoami
+   75  chfn -f "o"
+   76  finger b1950306
+   77  finger b1950307
+   78  chfn -h "1-2"
+   79  finger b1950307
+   80  write b1950306
+   81  write b1950306
+   82  mesg y
+   83  mesg n
+   84  mail
+   85  history
+   86  history > logfile.txt
